@@ -2,6 +2,8 @@
 
 This simple app demonstrates the use of [Leaf](https://github.com/eycorsican/leaf) on macOS.
 
+**NOTE This app uses the `NetworkExtension` framework.**
+
 Leaf supports a large feature set including SOCKS 5, HTTP, Shadowsocks, VMess and Trojan proxy protocols, and plugable proxy transports such as WebSocket and TLS. There are also flexible load balancing / high availability features to better deliver your network requests.
 
 The app has no UIs and the switch is the only button to start and stop the proxy, you can control all the proxy behaviors by changing a config file, which is defined as a `String` variable and located in `PacketTunnel/PacketTunnelProvider.swift`.
